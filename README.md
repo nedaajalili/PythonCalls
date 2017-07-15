@@ -17,4 +17,3 @@ if __name__ == '__main__':
     # without auth, omit the last parameter
     #print the lumicity
     lumVal = all_devices['devices']['3']['instances']['0']['commandClasses']['49']['data']['3']['val']['value']
-    print("data %s "  %all_devices['devices']['3']['instances']['0']['commandClasses']['49']['data']['3']['val']['value'])
